@@ -1,4 +1,4 @@
- import { Mail } from 'lucide-react'
+ import { CarTaxiFront, Mail, ShoppingBag } from 'lucide-react'
 import React from 'react'
 import { Button } from './ui/button'
 import Link from 'next/link'
@@ -46,7 +46,13 @@ const Footer = () => {
     ]
   return (
     <footer className=''>
-            <div className="font-extrabold font-cormorant text-5xl md:text-[10rem] xl:text-[16rem] leading-10 text-center py-36">DOCHE</div>
+            <div className="font-extrabold font-cormorant text-5xl md:text-[10rem] xl:text-[16rem] tracking-widest text-center py-16 md:py-24 ">DOCHE</div>
+             <div className="mx-auto flex justify-center">
+             <Button className='animate-pulse'>
+                Start Shoppping <ShoppingBag />
+            </Button>
+             </div>
+           
             <div className="flex flex-col md:flex-row justify-center gap-7 md:justify-between p-3 max-w-6xl mx-auto">
                 <div className="space-y-6">
                     <p className="font-semibold">Join our newsletter for more fashion updates</p>
@@ -58,7 +64,7 @@ const Footer = () => {
                     </form>
                 </div>
 
-                <div className="flex justify-center gap-4">
+                <div className="flex justify-center gap-8">
                     {
                         footer_deets.map((item,i)=>{
                             const {title,list}= item
@@ -68,7 +74,7 @@ const Footer = () => {
                                 {list.map((listitem,index)=>{
                                     const {name,link} = listitem
                                     return <li className="">
-                                    <Link href={link} className="font-extralight" key={index}>{name}</Link>
+                                    <Link href={link} className="font-extralight text-sm text-gray-500/60" key={index}>{name}</Link>
                                     </li>
                                   
                                 })}
@@ -79,6 +85,10 @@ const Footer = () => {
                     
                 </div>
                 
+            </div>
+            <hr className='mt-7'/>
+            <div className="flex p-3 justify-between text-xs font-extralight">
+               c copyright Doche 2024
             </div>
     </footer>
   )

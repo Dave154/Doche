@@ -5,7 +5,8 @@ const About = () => {
   return (
     <section className="">
         <div className="">
-          <div className="max-h-96 max-w-3xl overflow-hidden">
+          <div className="max-h-96 max-w-3xl overflow-hidden mx-auto rounded-xl shadow-2xl
+          ">
             <Image
               src={'/img_2.jpg'}
               alt='image'
