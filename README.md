@@ -30,7 +30,7 @@ Check out the live version here: [Doche Landing Page](https://doche.vercel.app/)
 ```  
 
 ## 🖼️ Screenshots  
-![Doche](https://imgur.com/a/uuMETY4)
+![Doche](https://imgur.com/a/uuMETY4.png)
 
 
 ## 📦 Getting Started  
