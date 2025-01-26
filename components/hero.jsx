@@ -30,7 +30,7 @@ const Hero = () => {
                 <img src="/scissors.png" alt="" />
             </div>
         <article className='space-y-8 mt-10'>
-        <h1 className="text-center font-cormorant font-extrabold text-4xl md:text-6xl xl:text-7xl"> <span className="relative mr-6">Step Into <img src="/pen_needle.png" alt="" className="absolute -right-5 w-7 md:w-12 top-1/4 animate-pulse" /> </span>Style with  <span className="bg-background underline underline-offset-2 ">Doche</span> <br /> Redefining Modern <span className="bg-background">Elegance</span> </h1>
+        <h1 className="text-center font-cormorant font-extrabold text-4xl md:text-6xl xl:text-7xl bg-background"> <span className="relative mr-6">Step Into <img src="/pen_needle.png" alt="" className="absolute -right-5 w-7 md:w-12 top-1/4 animate-pulse" /> </span>Style with  <span className=" underline underline-offset-2 ">Doche</span> <br /> Redefining Modern <span className="">Elegance</span> </h1>
         <div className="flex flex-col items-center gap-5">
             <p className="text-gray-400 text-center">Effortlessly Stylish, Thoughtfully Designed – Redefining Fashion for Every Moment</p>
             <Button className='rounded-full font-semibold p-6 text-lg relative' >
