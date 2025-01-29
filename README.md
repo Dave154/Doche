@@ -45,7 +45,7 @@ Check out the live version here: [Doche Landing Page](https://doche.vercel.app/)
 1. Clone the repository:  
 
    ```bash  
-   git clone [repository-url]  
+   git clone https://github.com/Dave154/Doche.git
    cd doche  
    ```  
 
